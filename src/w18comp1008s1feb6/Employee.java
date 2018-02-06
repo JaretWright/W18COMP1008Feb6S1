@@ -88,6 +88,15 @@ public class Employee
         return String.format("%s %s",firstName,lastName);
     }
     
-   
+    /**
+     * This method will return the Employee's age in years
+     */
+    public int getAge()
+    {
+        int age = Period.between
+                        (dateOfBirth, LocalDate.now()).getYears();
+        
+        return age;
+    }
     
 }

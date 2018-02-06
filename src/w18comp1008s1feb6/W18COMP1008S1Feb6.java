@@ -20,8 +20,8 @@ public class W18COMP1008S1Feb6
         Employee emp2 = new Employee("Jaret","Wright","456",
                                 LocalDate.of(1962, Month.APRIL, 23));
         
-        System.out.printf("Employee1: %s%n", emp1);
-        System.out.printf("Employee2: %s%n", emp2);
+        System.out.printf("Employee1: %s age: %d%n", emp1, emp1.getAge());
+        System.out.printf("Employee2: %s age: %d%n", emp2, emp2.getAge());
         
     }
     
